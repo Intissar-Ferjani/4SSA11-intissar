@@ -15,6 +15,7 @@ public class EntrepriseController {
 
     IEntrepriseService entrepriseService;
     //actions
+    //test commit
     @PostMapping("/add")
     public Entreprise addEntreprise(@RequestBody Entreprise entreprise) {
         return entrepriseService.addEntreprise(entreprise);
