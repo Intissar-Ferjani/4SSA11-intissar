@@ -14,7 +14,7 @@ import java.util.List;
 public class EntrepriseController {
 
     IEntrepriseService entrepriseService;
-
+    //actions
     @PostMapping("/add")
     public Entreprise addEntreprise(@RequestBody Entreprise entreprise) {
         return entrepriseService.addEntreprise(entreprise);
